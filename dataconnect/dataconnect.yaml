@@ -1,0 +1,11 @@
+specVersion: "v1alpha"
+serviceId: "app-delivery-connect"
+location: "southamerica-east1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "app-delivery"
+      cloudSql:
+        instanceId: "app-delivery"
+connectorDirs: ["./default-connector"]

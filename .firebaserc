@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "delivery-app-43eb5"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgresql://localhost:5432?sslmode=disable"
+    }
+  }
+}
